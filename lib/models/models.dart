@@ -36,7 +36,7 @@ class Note {
   String toString() => 'Note (title: $title)';
 }
 
-final mockNote = Iterable.generate(
+final mockNotes = Iterable.generate(
   3,
   (i) => Note(title: 'Note ${i + 1}'),
 );
